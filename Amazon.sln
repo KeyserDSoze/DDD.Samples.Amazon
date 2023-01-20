@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon", "Amazon\Amazon.csproj", "{BCD80180-4148-41B8-8CA7-6A122F55D0B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{536F41D5-C5C9-4A28-AD73-9482DA63AF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Identity.Domain", "Source\Identity\Amazon.Identity.Domain\Amazon.Identity.Domain.csproj", "{31D1A4C0-7270-4625-B474-A0F06B25492B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Identity.Business", "Source\Identity\Amazon.Identity.Application\Amazon.Identity.Business.csproj", "{4CCD401B-5231-4323-AD40-2F7CFA410536}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Identity.Infrastructure.TableStorage", "Source\Identity\Amazon.Identity.Infrastructure.TableStorage\Amazon.Identity.Infrastructure.TableStorage.csproj", "{1F41624A-C88C-4773-831F-F0B9323E14FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.Identity.Application.Api", "Source\Identity\Amazon.Identity.Api\Amazon.Identity.Application.Api.csproj", "{C4A33507-44E8-4EEB-8FE1-B2091122B9FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCD80180-4148-41B8-8CA7-6A122F55D0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD80180-4148-41B8-8CA7-6A122F55D0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD80180-4148-41B8-8CA7-6A122F55D0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD80180-4148-41B8-8CA7-6A122F55D0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D1A4C0-7270-4625-B474-A0F06B25492B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D1A4C0-7270-4625-B474-A0F06B25492B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D1A4C0-7270-4625-B474-A0F06B25492B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D1A4C0-7270-4625-B474-A0F06B25492B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCD401B-5231-4323-AD40-2F7CFA410536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCD401B-5231-4323-AD40-2F7CFA410536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCD401B-5231-4323-AD40-2F7CFA410536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCD401B-5231-4323-AD40-2F7CFA410536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F41624A-C88C-4773-831F-F0B9323E14FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F41624A-C88C-4773-831F-F0B9323E14FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F41624A-C88C-4773-831F-F0B9323E14FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F41624A-C88C-4773-831F-F0B9323E14FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A33507-44E8-4EEB-8FE1-B2091122B9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A33507-44E8-4EEB-8FE1-B2091122B9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A33507-44E8-4EEB-8FE1-B2091122B9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A33507-44E8-4EEB-8FE1-B2091122B9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31D1A4C0-7270-4625-B474-A0F06B25492B} = {536F41D5-C5C9-4A28-AD73-9482DA63AF2A}
+		{4CCD401B-5231-4323-AD40-2F7CFA410536} = {536F41D5-C5C9-4A28-AD73-9482DA63AF2A}
+		{1F41624A-C88C-4773-831F-F0B9323E14FD} = {536F41D5-C5C9-4A28-AD73-9482DA63AF2A}
+		{C4A33507-44E8-4EEB-8FE1-B2091122B9FA} = {536F41D5-C5C9-4A28-AD73-9482DA63AF2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5938AC-A98C-4952-9B2E-8D4DA731928D}
+	EndGlobalSection
+EndGlobal
